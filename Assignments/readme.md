@@ -22,7 +22,8 @@ This folder contains all coursework and assignments for the **Generative AI** pr
 
 ### **Assignment 1: Topic Detection & Summarization + Job Analysis**
 **Status:** ✅ Complete  
-**Marks:** 90/100
+
+
 
 #### What's Included:
 - **Part 1 (45 marks):** BBC News Article Analysis
