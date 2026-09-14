@@ -43,12 +43,12 @@ This folder contains all coursework and assignments for the **Generative AI** pr
 | File | Purpose |
 |------|---------|
 | `Assignment1/` | Complete assignment folder |
-| `Assignment1/Kushagra_Gupta_Generative_AI_Assignment_1.ipynb` | Main Jupyter notebook with all code |
+| `Assignment1/Kushagra_Gupta_27PGAI0115_Generative_AI_Assignment_1.ipynb` | Main Jupyter notebook with all code |
 | `Assignment1/readme.md` | Detailed assignment documentation |
 | `Assignment1/bbc-news-data.csv` | Input: BBC News dataset |
 | `Assignment1/job_title_des.csv` | Input: Job postings dataset |
 | `Assignment1/bbc_news_analyzed_first30.csv` | Output: BBC analysis (first 30) |
-| `Assignment1/bbc_news_langchain_output.csv` | Output: BBC full results |
+| `Assignment1/bbc_news_full_checkpoint.csv` | Output: BBC full-dataset run (partial checkpoint: 52 of 2,225 articles processed) |
 | `Assignment1/job_postings_analyzed_first25.csv` | Output: Job analysis (first 25) |
 | `Assignment1/pyproject.toml` | Python dependencies |
 
@@ -61,8 +61,8 @@ This folder contains all coursework and assignments for the **Generative AI** pr
 
 #### Quick Links:
 - 📖 [View Assignment 1 Details](./Assignment1/readme.md)
-- 📓 [View Notebook](./Assignment1/Kushagra_Gupta_Generative_AI_Assignment_1.ipynb)
-- 📊 [View Results (BBC)](./Assignment1/bbc_news_langchain_output.csv)
+- 📓 [View Notebook](./Assignment1/Kushagra_Gupta_27PGAI0115_Generative_AI_Assignment_1.ipynb)
+- 📊 [View Results (BBC)](./Assignment1/bbc_news_analyzed_first30.csv)
 - 💼 [View Results (Jobs)](./Assignment1/job_postings_analyzed_first25.csv)
 
 ---
@@ -75,7 +75,7 @@ This folder contains all coursework and assignments for the **Generative AI** pr
 python --version
 
 # Install dependencies
-pip install -r Assignment1/requirements.txt
+uv sync --project Assignment1
 
 # Set Groq API key
 export GROQ_API_KEY="your_api_key_here"
@@ -84,7 +84,7 @@ export GROQ_API_KEY="your_api_key_here"
 ### Run an Assignment
 ```bash
 cd Assignment1/
-jupyter notebook Kushagra_Gupta_Generative_AI_Assignment_1.ipynb
+jupyter notebook Kushagra_Gupta_27PGAI0115_Generative_AI_Assignment_1.ipynb
 ```
 
 ---
@@ -192,7 +192,7 @@ jupyter notebook Kushagra_Gupta_Generative_AI_Assignment_1.ipynb
 - [Available Models](https://ollama.ai/library)
 
 ### Datasets
-- [BBC News Archive (Kaggle)](https://www.kaggle.com/datasets/heeraldeep/bbcnewsarchive)
+- [BBC News Archive (Kaggle)](https://www.kaggle.com/datasets/hgultekin/bbcnewsarchive)
 - Job Postings: Custom dataset
 
 ### Pydantic
