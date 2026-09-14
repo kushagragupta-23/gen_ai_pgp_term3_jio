@@ -1,8 +1,8 @@
 [project]
-name = "myproject"
+name = "generative-ai-assignment-1"
 version = "0.1.0"
-description = "Add your description here"
-readme = "README.md"
+description = "Generative AI Assignment 1 - LangChain with a local Ollama model"
+readme = "readme.md"
 authors = [
     { name = "KUSHAGRA GUPTA", email = "aakg2310@gmail.com" }
 ]
@@ -17,13 +17,6 @@ dependencies = [
     "pydantic>=2.13.5",
     "tqdm[notebook]>=4.70.0",
 ]
-
-[project.scripts]
-myproject = "myproject:main"
-
-[build-system]
-requires = ["uv_build>=0.12.10,<0.13.0"]
-build-backend = "uv_build"
 
 [dependency-groups]
 dev = [

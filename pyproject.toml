@@ -1,10 +1,10 @@
 [project]
-name = "gen-ai-pgp-term3-jio-main"
+name = "gen-ai-pgp-term3-jio"
 version = "0.1.0"
-description = "Add your description here"
+description = "Generative AI coursework - Jio Institute PGP AI & DS, Term 3"
 readme = "README.md"
 authors = [
-    { name = "kushagragupta-23", email = "kushagra@example.com" }
+    { name = "Kushagra Gupta", email = "aakg2310@gmail.com" }
 ]
 requires-python = ">=3.11"
 dependencies = [
@@ -18,10 +18,3 @@ dependencies = [
     "pydantic>=2.13.5",
     "tqdm>=4.70.1",
 ]
-
-[project.scripts]
-gen-ai-pgp-term3-jio-main = "gen_ai_pgp_term3_jio_main:main"
-
-[build-system]
-requires = ["uv_build>=0.12.1,<0.13.0"]
-build-backend = "uv_build"

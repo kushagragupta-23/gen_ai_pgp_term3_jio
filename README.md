@@ -1,2 +1,6 @@
-This is for Term4 Course of GenAi
-I am maintaining this repository
+# Generative AI - Jio Institute PGP AI & DS (AY 2026-27), Term 3
+
+Coursework for the Generative AI course, maintained by Kushagra Gupta (27PGAI0115).
+
+- [Assignments](./Assignments/)
+- [Class exercises](./Class_exercises/)

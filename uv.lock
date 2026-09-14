@@ -525,9 +525,9 @@ wheels = [
 ]
 
 [[package]]
-name = "gen-ai-pgp-term3-jio-main"
+name = "gen-ai-pgp-term3-jio"
 version = "0.1.0"
-source = { editable = "." }
+source = { virtual = "." }
 dependencies = [
     { name = "ipykernel" },
     { name = "jupyter" },
