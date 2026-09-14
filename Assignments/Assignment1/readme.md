@@ -52,9 +52,11 @@ Both pipelines run over the full datasets using Ollama, as the brief advises.
 ## How to run
 
 ```bash
+git clone https://github.com/kushagragupta-23/gen_ai_pgp_term3_jio.git
+cd gen_ai_pgp_term3_jio/Assignments/Assignment1
 ollama pull llama3.2
 uv sync
-jupyter notebook Kushagra_Gupta_27PGAI0115_Generative_AI_Assignment_1.ipynb
+uv run jupyter notebook Kushagra_Gupta_27PGAI0115_Generative_AI_Assignment_1.ipynb
 ```
 
 The `*_checkpoint.csv` files let the notebook resume where it stopped; delete them to recompute everything.
