@@ -11,3 +11,6 @@ wheels/
 
 # Secrets (API keys)
 .env
+
+# Jupyter autosave folders (as in the course repo)
+.ipynb_checkpoints/
