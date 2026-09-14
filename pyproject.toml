@@ -1,7 +1,7 @@
 [project]
 name = "gen-ai-pgp-term3-jio"
 version = "0.1.0"
-description = "Generative AI coursework - Jio Institute PGP AI & DS, Term 3"
+description = "Generative AI coursework - Jio Institute PGP AI & DS, Term 4"
 readme = "README.md"
 authors = [
     { name = "Kushagra Gupta", email = "aakg2310@gmail.com" }
