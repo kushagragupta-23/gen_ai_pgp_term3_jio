@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 authors = [
-    { name = "AISHWARYA NEVREKAR", email = "nevrekaraishwarya@gmail.com" }
+    { name = "KUSHAGRA GUPTA", email = "aakg2310@gmail.com" }
 ]
 requires-python = ">=3.13"
 dependencies = [
@@ -24,3 +24,10 @@ myproject = "myproject:main"
 [build-system]
 requires = ["uv_build>=0.12.10,<0.13.0"]
 build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.3.0",
+    "jupyter>=1.1.1",
+    "notebook>=7.6.2",
+]
